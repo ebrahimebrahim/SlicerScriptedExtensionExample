@@ -6,7 +6,7 @@ NOTE: The functionality to install "from source" that is described below does no
 
 ## Install Badge
 
-[![Install in Slicer](https://img.shields.io/badge/Install%20in-Slicer-0084c7)](https://ebrahimebrahim.github.io/SlicerScriptedExtensionExample/install.html)
+[![Install in Slicer](https://img.shields.io/badge/Install%20in-Slicer-E6ECED?labelColor=AFB8D1)](https://ebrahimebrahim.github.io/SlicerScriptedExtensionExample/install.html)
 
 The badge opens a small HTTPS landing page because GitHub README rendering does
 not preserve direct `slicer://` links. From there, the install button opens
