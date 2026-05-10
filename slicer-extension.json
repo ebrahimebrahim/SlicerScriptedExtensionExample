@@ -1,0 +1,22 @@
+{
+  "schema": "https://slicer.org/schemas/source-scripted-extension/v1",
+  "type": "source-scripted",
+  "extensionname": "SlicerScriptedExtensionExample",
+  "description": "Minimal scripted extension install example.",
+  "contributors": "Slicer Developer",
+  "category": "Examples",
+  "homepage": "https://github.com/ebrahimebrahim/SlicerScriptedExtensionExample",
+  "modules": [
+    {
+      "name": "SlicerScriptedExtensionExample",
+      "path": "Modules/SlicerScriptedExtensionExample/SlicerScriptedExtensionExample.py"
+    }
+  ],
+  "pythonPaths": [],
+  "depends": [],
+  "installSource": {
+    "type": "git",
+    "url": "https://github.com/ebrahimebrahim/SlicerScriptedExtensionExample.git",
+    "ref": "main"
+  }
+}
