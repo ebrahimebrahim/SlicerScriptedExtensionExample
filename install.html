@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Install SlicerScriptedExtensionExample</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #0084c7;
+      --text: #1f2933;
+      --muted: #52606d;
+      --background: #f7f9fb;
+      --panel: #ffffff;
+      --border: #d9e2ec;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f5f7fa;
+        --muted: #bcccdc;
+        --background: #101820;
+        --panel: #1f2933;
+        --border: #3e4c59;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--background);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(100% - 32px, 680px);
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 1.75rem;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: var(--muted);
+    }
+
+    a.install {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    code {
+      overflow-wrap: anywhere;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SlicerScriptedExtensionExample</h1>
+    <p>Install this scripted extension in Slicer from its source repository.</p>
+    <p>
+      <a class="install" href="slicer://extensions/install-source?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Febrahimebrahim%2FSlicerScriptedExtensionExample%2Fmain%2Fslicer-extension.json">Install in Slicer</a>
+    </p>
+    <p>
+      Manifest:
+      <code>https://raw.githubusercontent.com/ebrahimebrahim/SlicerScriptedExtensionExample/main/slicer-extension.json</code>
+    </p>
+  </main>
+</body>
+</html>

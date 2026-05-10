@@ -6,10 +6,12 @@ NOTE: The functionality to install "from source" that is described below does no
 
 ## Install Badge
 
-[![Install in Slicer](https://img.shields.io/badge/Install%20in-Slicer-0084c7)](slicer://extensions/install-source?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Febrahimebrahim%2FSlicerScriptedExtensionExample%2Fmain%2Fslicer-extension.json)
+[![Install in Slicer](https://img.shields.io/badge/Install%20in-Slicer-0084c7)](https://ebrahimebrahim.github.io/SlicerScriptedExtensionExample/install.html)
 
-The badge opens Slicer with a remote manifest URL. The manifest's `installSource`
-field tells Slicer to install this repository from Git.
+The badge opens a small HTTPS landing page because GitHub README rendering does
+not preserve direct `slicer://` links. From there, the install button opens
+Slicer with a remote manifest URL. The manifest's `installSource` field tells
+Slicer to install this repository from Git.
 
 ## Direct Git Install
 
